@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paranagua Weather</title>
+    <link rel="stylesheet" href="css/main_style.css">
+</head>
+<body>
+    
+    <!--Circle temperture, min max temps for today, current temp-->
+    <!--current weather type-->
+    <!--windspeed and direction-->
+    <!--humidity?-->
+    <div id="main_content">
+        <section class="main_forcast_section">
+            <section class="current_temp_section">
+                <div id="current_temp_circle">
+                    <div class="temp_circle_bg">
+                        <div class="temp_circle_data">
+                            <span id="current_min_temp"></span>
+                            <span class="divider">|</span>
+                            <span id="current_max_temp"></span>
+                            <span id="current_temp"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="current_weather_section">
+                <div class="current_weather">
+                    <img src="" alt="" id="current_weather_icon">
+                    <p id="current_weather_text"></p>
+                </div>
+                <div class="wind_direction">
+                    <img src="" alt="" id="wind_direction_icon" style=" transform: rotateZ(0deg);">
+                    <p id="wind_direction_text"></p>
+                </div>
+            </section>
+        </section>
+        <hr>
+        <section class="hourly_forcast_section">
+            <div id="forcast_hour_1">
+                <p id="forcast_time_hour_1"></p>
+                <img src="" alt="" id="weather_icon_hour_1" class="weather_icon">
+                <p id="temp_hour_1"></p>
+            </div>
+            <div id="forcast_hour_2">
+                <p id="forcast_time_hour_2"></p>
+                <img src="" alt="" id="weather_icon_hour_2" class="weather_icon">
+                <p id="temp_hour_2"></p>
+            </div>
+            <div id="forcast_hour_3">
+                <p id="forcast_time_hour_3"></p>
+                <img src="" alt="" id="weather_icon_hour_3" class="weather_icon">
+                <p id="temp_hour_3"></p>
+            </div>
+            <div id="forcast_hour_4">
+                <p id="forcast_time_hour_4"></p>
+                <img src="" alt="" id="weather_icon_hour_4" class="weather_icon">
+                <p id="temp_hour_4"></p>
+            </div>
+            <div id="forcast_hour_5">
+                <p id="forcast_time_hour_5"></p>
+                <img src="" alt="" id="weather_icon_hour_5" class="weather_icon">
+                <p id="temp_hour_5" ></p>
+            </div>
+            <div id="forcast_hour_6">
+                <p id="forcast_time_hour_6"></p>
+                <img src="" alt="" id="weather_icon_hour_6" class="weather_icon">
+                <p id="temp_hour_6"></p>
+            </div>
+        </section>
+        <hr>
+        <section class="daily_forcast_section">
+            <div id="forcast_day_1">
+                <p id="forcast_time_day_1"></p>
+                <img src="" alt="" id="weather_icon_day_1" class="weather_icon">
+                <p id="temp_max_day_1" class="temperature_max"></p>
+                <p id="temp_min_day_1" class="temperature_min"></p>
+            </div>
+            <div id="forcast_day_2">
+                <p id="forcast_time_day_2"></p>
+                <img src="" alt="" id="weather_icon_day_2" class="weather_icon">
+                <p id="temp_max_day_2" class="temperature_max"></p>
+                <p id="temp_min_day_2" class="temperature_min"></p>
+            </div>
+            <div id="forcast_day_3">
+                <p id="forcast_time_day_3"></p>
+                <img src="" alt="" id="weather_icon_day_3" class="weather_icon">
+                <p id="temp_max_day_3" class="temperature_max"></p>
+                <p id="temp_min_day_3" class="temperature_min"></p>
+            </div>
+            <div id="forcast_day_4">
+                <p id="forcast_time_day_4"></p>
+                <img src="" alt="" id="weather_icon_day_4" class="weather_icon">
+                <p id="temp_max_day_4" class="temperature_max"></p>
+                <p id="temp_min_day_4" class="temperature_min"></p>
+            </div>
+            <div id="forcast_day_5">
+                <p id="forcast_time_day_5"></p>
+                <img src="" alt="" id="weather_icon_day_5" class="weather_icon">
+                <p id="temp_max_day_5" class="temperature_max"></p>
+                <p id="temp_min_day_5" class="temperature_min"></p>
+            </div>
+            <div id="forcast_day_6">
+                <p id="forcast_time_day_6"></p>
+                <img src="" alt="" id="weather_icon_day_6" class="weather_icon">
+                <p id="temp_max_day_6" class="temperature_max"></p>
+                <p id="temp_min_day_6" class="temperature_min"></p>
+            </div>
+        </section>
+    </div>
+    <script src="js/data-model.js"></script>
+    <script src="js/weather-api.js"></script>
+</body>
+</html>

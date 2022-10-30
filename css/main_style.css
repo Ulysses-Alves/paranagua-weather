@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg/img_paranagua_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    font-family: sans-serif;
+}
+#main_content{
+    width: 600px;
+    position: relative;
+    top: 8%;
+    margin: 0 auto;
+    background-color: rgba(203, 241, 245, 0.5);
+    border-radius: 10px;
+}
+.main_forcast_section{ 
+    padding: 20px
+}
+.weather_icon{
+    height: 96px;
+    width: 96px;
+}
+.fadeIn{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*====Current Temperature====*/
+.current_temp_section{
+    float: left;
+}
+#current_temp_circle{
+    width: 210px;
+    height: 210px;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+.temp_circle_bg{
+    background-color: #CBF1F5;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.temp_circle_data{
+    padding: 25%;
+    text-align: center;
+}
+#current_temp{
+    font-size: 3em;
+    font-weight: bold;
+}
+#current_min_temp{
+    font-size: 0.8em;
+}
+#current_max_temp{
+    font-size: 0.8em;
+}
+/*====Current Weather====*/
+.current_weather_section{
+    text-align: center;
+}
+#current_weather_icon{
+    height: 128px;
+    width: 128px;
+}
+#wind_direction_icon{
+    height: 64px;
+    width: 64px;
+}
+/*====Hourly Weather====*/
+.hourly_forcast_section
+{
+    padding: 10px;
+    display: flex;
+    width: 600px;
+    text-align: center;
+}
+.temperature_max{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/*====Daily Weather====*/
+.daily_forcast_section{
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    width: 600px;
+}
