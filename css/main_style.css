@@ -17,6 +17,7 @@ body{
     margin: 0 auto;
     background-color: rgba(203, 241, 245, 0.5);
     border-radius: 10px;
+    visibility: hidden;
 }
 .main_forcast_section{ 
     padding: 20px
@@ -25,19 +26,6 @@ body{
     height: 96px;
     width: 96px;
 }
-.fadeIn{
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-}
-@keyframes fadeIn{
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@-webkit-keyframes fadeIn{
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
 /*====Current Temperature====*/
 .current_temp_section{
     float: left;

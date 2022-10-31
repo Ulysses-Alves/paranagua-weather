@@ -23,6 +23,7 @@ async function getApiData()
         getCurrentForcast(data);
         getHourlyForcast(data);
         getDailyForcast(data);
+        document.getElementById("main_content").style.visibility = "visible"
 }
 
 function getCurrentForcast(weatherData)
